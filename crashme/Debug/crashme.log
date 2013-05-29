@@ -1,4 +1,4 @@
-﻿Der Buildvorgang wurde am 3/13/2013 8:26:09 PM gestartet.
+﻿Der Buildvorgang wurde am 5/29/2013 8:58:23 PM gestartet.
      1>Projekt "C:\Users\carlos\documents\visual studio 2010\Projects\crashme\crashme\crashme.vcxproj" auf Knoten "2", build Ziel(e).
      1>InitializeBuildStatus:
          "Debug\crashme.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
@@ -7,6 +7,7 @@
        ClCompile:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtCore /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtGui /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt crashme.cpp
          crashme.cpp
+     1>c:\users\carlos\documents\visual studio 2010\projects\crashme\crashme\crashme.cpp(121): warning C4700: Die nicht initialisierte lokale Variable "dst_buffer" wurde verwendet.
          Alle Ausgaben sind aktuell.
        ResourceCompile:
          Alle Ausgaben sind aktuell.
@@ -27,4 +28,4 @@
 
 Das Erstellen war erfolgreich.
 
-Verstrichene Zeit 00:00:04.09
+Verstrichene Zeit 00:00:03.58

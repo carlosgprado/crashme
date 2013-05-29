@@ -28,4 +28,9 @@ public slots:
 
 };
 
+struct Dummy {
+	int num;
+	char *str;
+};
+
 #endif // CRASHME_H
