@@ -1,1 +1,8 @@
 *.opensdf
+*.ilk
+*.pdb
+*.ipch
+*.tlog
+*.manifest
+*.obj
+*.res

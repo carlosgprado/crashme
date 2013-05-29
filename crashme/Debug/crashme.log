@@ -1,23 +1,30 @@
-﻿Der Buildvorgang wurde am 5/29/2013 8:58:23 PM gestartet.
+﻿Der Buildvorgang wurde am 5/29/2013 9:07:13 PM gestartet.
      1>Projekt "C:\Users\carlos\documents\visual studio 2010\Projects\crashme\crashme\crashme.vcxproj" auf Knoten "2", build Ziel(e).
      1>InitializeBuildStatus:
          "Debug\crashme.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
        CustomBuild:
-         Alle Ausgaben sind aktuell.
+         Moc'ing crashme.h...
+         Uic'ing crashme.ui...
+         Rcc'ing crashme.qrc...
+     1>RCC : warning : No resources in 'C:\Users\carlos\documents\visual studio 2010\Projects\crashme\crashme\crashme.qrc'.
+         
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtCore /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtGui /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt crashme.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtCore /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtGui /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt crashme.cpp GeneratedFiles\Debug\moc_crashme.cpp main.cpp
          crashme.cpp
+         moc_crashme.cpp
+         main.cpp
+         Code wird generiert...
      1>c:\users\carlos\documents\visual studio 2010\projects\crashme\crashme\crashme.cpp(121): warning C4700: Die nicht initialisierte lokale Variable "dst_buffer" wurde verwendet.
-         Alle Ausgaben sind aktuell.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtCore /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtGui /IC:\Qt\Qt5.0.1\5.0.1\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_crashme.cpp
+         qrc_crashme.cpp
        ResourceCompile:
-         Alle Ausgaben sind aktuell.
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\crashme.res" crashme.rc 
        Link:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\\crashme.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.0.1\5.0.1\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\crashme.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\crashme.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\crashme.lib" /MACHINE:X86 Debug\crashme.res
          Debug\crashme.obj
          Debug\moc_crashme.obj
          Debug\qrc_crashme.obj
          Debug\main.obj
-         LINK : C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\\crashme.exe wurde nicht gefunden oder beim letzten inkrementellen Linkvorgang nicht erstellt; vollständiger Link wird durchgeführt.
          crashme.vcxproj -> C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\crashme.exe
        Manifest:
          C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\carlos\documents\visual studio 2010\Projects\crashme\Win32\Debug\\crashme.exe;#1" /manifest Debug\crashme.exe.intermediate.manifest
@@ -28,4 +35,4 @@
 
 Das Erstellen war erfolgreich.
 
-Verstrichene Zeit 00:00:03.58
+Verstrichene Zeit 00:00:06.50
